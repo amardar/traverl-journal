@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar--style {
+    display: flex;
+    justify-content: center;
+    background-color: #F55A5A;
+    margin: 0px;
+    height: 55px;
+    border-radius: 10px 0px 10px 0px ;
+}
+
+.navbar--style > h1 {
+    padding-top: 17px;
+    margin: 0px;
+    font-family: Inter;
+    color: white;
+    font-size: 14.46px;
+    font-weight: 400;
+}
+.navbar--style > img {
+    padding-top: 15px;
+    padding-right: 6px;
+    width: 24px;
+    height: 24px;
+}
+
+.card-text {
+    margin-left: 23px;
+}
+
+.card--style {
+    display: flex;
+    flex-direction: row;
+    max-width: 550px;
+    margin-top: 20px;
+    border-bottom: 1px solid #F5F5F5;
+    padding-bottom: 15px;
+}
+.card--location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 160px;
+}
+.card--location > img {
+    width: 8px;
+    height: 10.55px;
+}
+.card--location > h1 {
+    color: #2B283A;
+    font-weight: 400;
+    font-size: 10.24px;
+}
+
+.card--location > a {
+    color: #918E9B;
+    font-weight: 400;
+    font-size: 10.24px;
+}
+
+.location--img {
+    width: 125px;
+    height: 168px;
+    border-radius: 10px;
+}
+
+.card--specification > h1 {
+    color: #2B283A;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card--specification > h2 {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-weight: bold;
+}
+
+.card--specification > p {
+    color: #2B283A;
+    font-size: 10.24px;
+    font-weight: normal;
+    max-width: 326px;
+}
